@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>HotelBooking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav-header">
+          <div class="logo">
+            <h1>CozyNest</h1>
+          </div>
+          <div class="nav_menu_btn" id="menu_btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav_links" id="nav_links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="btn nav_btn">Book Now</button>
+      </nav>
+      <div class="section_container header_container" id="home">
+        <p>Welcome to CozyNest</p>
+        <h1>
+         Every stay <br>feels just
+         like  <br>being at home.
+          
+        </h1>
+      </div>
+    </header>
+    <section class="section_container booking_container">
+      <form action="/" class="booking_form">
+        <div class="input_group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-in">CHECK-IN</label>
+            <input type="text" placeholder="Check In" />
+          </div>
+        </div>
+        <div class="input_group">
+          <span><i class="ri-calendar-2-fill"></i></span>
+          <div>
+            <label for="check-out">CHECK-OUT</label>
+            <input type="text" placeholder="Check Out" />
+          </div>
+        </div>
+        <div class="input_group">
+          <span><i class="ri-user-fill"></i></span>
+          <div>
+            <label for="guest">GUEST</label>
+            <input type="text" placeholder="GUEST" />
+          </div>
+        </div>
+        <div class="input_group input_btn">
+          <button class="btn">CHECK OUT</button>
+        </div>
+      </form>
+    </section>
+    <section class="section_container about_container" id="about">
+      <div class="about_image">
+        <img src="assets/service.jpg" alt="about" />
+      </div>
+      <div class="about_content">
+        <p class="section_subheader">ABOUT US</p>
+        <h2 class="section_header">Start your dream gataway Here!</h2>
+        <p class="section_description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab,
+          veritatis delectus repellendus placeat quod accusantium, labore
+          ducimus eligendi deserunt, repudiandae dolorem illum asperiores
+          dolores similique possimus ipsam aperiam. Assumenda laudantium
+          cupiditate beatae doloribus! Minima tempore commodi ut, necessitatibus
+          nemo est?
+        </p>
+        <div class="about_btn">
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section_container room_container">
+      <p class="section_subheader">OUR LIVING ROOM</p>
+      <h2 class="section_header">Discover a haven that feels just like home</h2>
+      <div class="room_grid">
+        <div class="room_card">
+          <div class="room_card_image">
+            <img src="assets/room2.jpg" alt="" width="100%" />
+            <div class="room_card_icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room_card_details">
+            <h4>Delux Ocean View</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+              voluptatibus, excepturi quia ipsum quibusdam illum?
+            </p>
+            <h5>Starting from <span>$399/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room_card">
+          <div class="room_card_image">
+            <img src="assets/room3.jpg" alt="" width="100%" />
+            <div class="room_card_icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room_card_details">
+            <h4>Delux Ocean View</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+              voluptatibus, excepturi quia ipsum quibusdam illum?
+            </p>
+            <h5>Starting from <span>$299/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room_card">
+          <div class="room_card_image">
+            <img src="assets/room1.jpg" alt="" width="100%" />
+            <div class="room_card_icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room_card_details">
+            <h4>Delux Ocean View</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+              voluptatibus, excepturi quia ipsum quibusdam illum?
+            </p>
+            <h5>Starting from <span>$499/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="room_card">
+          <div class="room_card_image">
+            <img src="assets/room1.jpg" alt="" width="100%" />
+            <div class="room_card_icons">
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-paint-fill"></i></span>
+              <span><i class="ri-shield-star-line"></i></span>
+            </div>
+          </div>
+          <div class="room_card_details">
+            <h4>Delux Ocean View</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora
+              voluptatibus, excepturi quia ipsum quibusdam illum?
+            </p>
+            <h5>Starting from <span>$399/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service" id="service">
+      <div class="section_container service_conatiner">
+        <div class="service_content">
+          <p class="section_subheader">SERVICES</p>
+          <h2 class="section_header">Aspire only for the best.</h2>
+          <ul class="service_list">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>
+              High Class Security
+            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>
+              24 Hours Room Service
+            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></i></span>
+              Conference Room
+            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>
+             Tourist Guide Support
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section_container banner_container">
+      <div class="banner_content">
+        <div class="banner_card">
+          <h4>30+</h4>
+          <p>Properties Available</p>
+        </div>
+          <div class="banner_card">
+            <h4>700+</h4>
+            <p>Booking Completed</p>
+          </div>
+            <div class="banner_card">
+              <h4>650+</h4>
+              <p>Happy Customers</p>
+            </div>
+      </div>
+    </section>
+    <section class="explore" id="explore">
+      <p class="section_subheader">EXPLORE</p>
+      <h2 class="section_header">What's New Today</h2>
+      <div class="explore_bg">
+        <div class="explore_content">
+          <p class="section_description">14th MAR 2024</p>
+          <h4>a new menu is available in our hotel</h4>
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+    </section>
+    <footer class="footer" id="contact">
+      <div class="section_container footer_container">
+        <div class="footer_col">
+        <div class="logo">
+          <h1>CozyNest</h1>
+        </div>
+        <p class="section_description">
+        Book Now and make <br> every trip memorable!
+        </p>
+        <botton class="btn">Book Now</botton>
+      </div>
+      <div class="footer_col">
+     <h4>QUICK LINKS</h4>
+     <ul class="footer_links">
+      <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+     </ul>
+      </div>
+      <div class="footer_col">
+        <h4>OUR SERVICES</h4>
+        <ul class="footer_links">
+         <li><a href="#">Concierge Assistance</li></a>
+         <li><a href="#">Flexible Booking Options</li></a>
+         <li><a href="#">Airport Transfer</li></a>
+         <li><a href="#">Wellness & Recreation</li></a>
+        </ul>
+      </div>
+      <div class="footer_col">
+        <h4>CONTACT US</h4>
+        <ul class="footer_links">
+          <li><a href="#">CozyNest@info.com</a></li>
+        </ul>
+        <div class="footer_socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="footer_bar">
+      Copyright &#169; 2024 CozyNest || All rights reserved
+    </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
